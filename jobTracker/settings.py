@@ -134,3 +134,6 @@ REST_FRAMEWORK = {
         'django_filters.rest_framework.DjangoFilterBackend',
         'rest_framework.filters.SearchFilter',]
 }
+CSRF_TRUSTED_ORIGINS = [
+    "https://web-production-caf03.up.railway.app",
+]
