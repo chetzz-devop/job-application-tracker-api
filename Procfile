@@ -1,0 +1,1 @@
+web: gunicorn jobTracker.wsgi --log-file -
